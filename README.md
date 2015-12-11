@@ -11,8 +11,6 @@ assessment.
 3. Import the code into Android Studio by selecting "Import Project", choosing the
 top directory of your clone, and accepting the defaults.
 
-4. Read and understand the README.
+4. Examine the provided code, and fix the areas marked "TODO".
 
-5. Examine the provided code, especially the parts marked "TODO".
-
-6. Implement your solution.
+5. Implement your solution.

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <TextView
+      android:text="@string/app_name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:textSize="24sp"
+      android:layout_marginTop="40dp"
+      />
+
+
+    <!-- TODO: show the c4q logo, center it and center crop it -->
+
+  <ImageView
+      android:id="@+id/logo"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:layout_marginTop="100dp"
+      />
+
+  <EditText
+      android:id="@+id/email"
+      android:layout_width="@dimen/login_field_width"
+      android:layout_height="wrap_content"
+      android:hint="@string/hint_email"
+      android:inputType="textEmailAddress"
+      android:layout_gravity="center_horizontal"
+      android:layout_below="@id/logo"
+      android:layout_centerHorizontal="true"
+      android:maxLines="1"
+      android:layout_marginTop="60dp"
+      />
+
+  <EditText
+      android:id="@+id/password"
+      android:layout_width="@dimen/login_field_width"
+      android:layout_height="wrap_content"
+      android:hint="@string/hint_password"
+      android:inputType="textPassword"
+      android:layout_gravity="center_horizontal"
+      android:layout_below="@id/email"
+      android:layout_centerHorizontal="true"
+      android:maxLines="1"
+      />
+
+  <Button
+      android:id="@+id/login"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/button_login"
+      android:layout_below="@id/password"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+      />
+
+</RelativeLayout>

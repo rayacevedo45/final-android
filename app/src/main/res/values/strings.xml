@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">C4Q Mail</string>
+  <string name="hint_email">Email</string>
+  <string name="hint_password">Password</string>
+  <string name="alert_dialog_dismiss">Dismiss</string>
+  <string name="title_email_list">Emails</string>
+  <string name="title_email_detail">Email Detail</string>
+  <string name="email_body">Body</string>
+  <string name="email_subject">Subject</string>
+  <string name="you_got_email">You got mail!</string>
+  <string name="notification_email_from">From: %1$s</string>
+  <string name="button_login">Login</string>
+  <string name="alert_dialog_title">Invalid Credentials</string>
+</resources>
